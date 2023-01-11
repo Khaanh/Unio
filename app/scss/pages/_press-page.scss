@@ -1,0 +1,51 @@
+.press-page {
+  &__holder {
+    padding: 30px 0;
+  }
+}
+
+.press-layout {
+
+  max-width: 90%;
+  margin: 0 auto;
+
+  &__holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 110px;
+
+    .press-layout__title {
+      text-align: left;
+    }
+
+    &._is-reverse {
+      flex-direction: row-reverse;
+
+      .press-layout__img {
+        margin-left: 30px;
+        margin-right: 0;
+      }
+
+      .press-layout__title {}
+    }
+  }
+
+  &__img {
+    max-width: 35%;
+    margin-right: 30px;
+  }
+
+  &__article {
+    max-width: 65%;
+    text-align: justify;
+  }
+
+  &__title {
+    color: #091133;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
+  }
+}

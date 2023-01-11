@@ -1,0 +1,25 @@
+// =====Basic colors=====
+$white: #fff;
+$black: #000;
+$gray: #ccc;
+$transp: transparent;
+
+// Custom colors...
+$text: #2b2b2b;
+
+// =====Typography base=====
+$main-font: 'Montserrat',
+sans-serif;
+$font-weight: 400;
+$font-size: 16px;
+$line-height: 1.75;
+$txt-color: $black;
+
+// =====Typography buttons=====
+$btn-ff: $main-font;
+$btn-fz: $font-size;
+$btn-lh: 20px;
+$btn-fw: $font-weight;
+$btn-color: $txt-color;
+$btn-bgc: $transp;
+$btn-radius: 0px;
